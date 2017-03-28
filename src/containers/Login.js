@@ -61,7 +61,7 @@ const mapStateToProps = state => ({
 
 const mapDispatchToProps = dispatch => ({
   setUsername: (name) => { dispatch(userActionCreators.setUserName(name)); },
-  setAvatar: (avatar) => { dispatch(userActionCreators.setAvatar(avatar)); },
+  setAvatar: (avatar) => { dispatch(userActionCreators.setUserAvatar(avatar)); },
   login: () => { dispatch(userActionCreators.login()); },
 });
 
